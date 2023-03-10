@@ -21,7 +21,7 @@ class Footprints(Clue):
 class OgreHair(Clue):
     def __init__(self):
         super().__init__("Ogre Hair", "Swamp")
-#This shows that the player has found the orge's hair near the swamp. 
+#This shows that the player has found the ogre's hair near the swamp. 
     def search(self):
         print("You found strands of ogre hair!")
         Player.inventory.append(self)
