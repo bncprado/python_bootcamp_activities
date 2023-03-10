@@ -14,3 +14,4 @@ class Player:
 # we used the '__init__' method and the  __init__ method takes two argument: 'name' aand 'lives'
 # the '__init__ method also initializes the 'inventory' attribute to an empty list.
 # we also used 'def' to define three seperate functions
+#test comment
