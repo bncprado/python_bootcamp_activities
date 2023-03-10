@@ -15,3 +15,4 @@ class Player:
 # the '__init__ method also initializes the 'inventory' attribute to an empty list.
 # we also used 'def' to define three seperate functions
 #test comment
+#new test comment
