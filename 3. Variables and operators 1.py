@@ -1,37 +1,40 @@
 #addition .It adds the typed numbers in the code
 
-print (" ----------------------")
-print ("| ARITHMETIC OPERATORS |")
-print (" ----------------------")
-print("                                                      ")
-print ("This is the ADDITION example:")
-print("                                                      ")
-print ("Type the numbers to ADD them:")
-print("                                                      ")
-addnum1 = int(input("Please type number 1    > "))
-addnum2 = int(input("Please type number 2    > "))
+print (""" 
+ ----------------------
+| ARITHMETIC OPERATORS |
+ ----------------------
+This is the ADDITION example
 
-addresult = addnum1 + addnum2
-print("                                                      ")
-print("The result is:".upper(), addnum1,"+",addnum2,"=", addresult)
-print("                                                      ")
-print ("---------------------------------------------------------------------------")
+Type the numbers to ADD them
+""")
+#this version has a simplified print statement above
+
+addnum1 = int(input("Please type number 1: "))
+addnum2 = int(input("Please type number 2: "))
+# this line of code is not necessary anymore -> addresult = addnum1 + addnum2
+
+print(f"\nThe result is: {addnum1+addnum2}".upper())
+
+print ("\n---------------------------------------------------------------------------")
 
 #subtraction. It subtracts the typed numbers in the code
 
-print("                                                      ")
-print ("This is the SUBTRACTION example:")
-print("                                                      ")
-print ("Type the numbers to SUBTRACT them:")
-print("                                                      ")
+print("""
+This is the SUBTRACTION example
+
+Type the numbers to SUBTRACT them
+\n""")
+
 subtnum1 = int(input("Please type number 1    > "))
 subtnum2 = int(input("Please type number 2    > "))
 
-subtresult = subtnum1 - subtnum2
-print("                                                      ")
-print ("The result is:".upper(),subtnum1,"-",subtnum2,"=",subtresult)
-print("                                                      ")
-print ("---------------------------------------------------------------------------")
+# this line of code is not necessary anymore -> subtresult = subtnum1 - subtnum2
+
+print(f"\nThe result is: {subtnum1+subtnum2}".upper())
+
+print ("\n---------------------------------------------------------------------------")
+
 #Multiplication. It multiplies the typed numbers in the code
 
 print("                                                      ")
